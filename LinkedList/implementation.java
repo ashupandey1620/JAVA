@@ -6,11 +6,7 @@ public class implementation
 {
     private Node head;
     private Node tail;
-    private int size;
-    public implementation()
-    {
-        this.size=0;
-    }
+  
     //head and tail pointers are the referenced variables that are pointing to the node
    
 
@@ -21,10 +17,6 @@ public class implementation
 
         public Node(int value){
             this.value = value;
-        }
-        public Node(int value ,Node next){
-            this.value=value;
-            this.next=next;
         }
     }
 
@@ -39,8 +31,6 @@ public class implementation
         if(tail == null){
            tail = head;
         }
-
-        size+=1;
     }
 
     public void display(){
