@@ -6,5 +6,6 @@ public class SubsetIIproblem
 {
     Scanner sc= new Scanner(System.in);
     int a;
+    
 
 }
