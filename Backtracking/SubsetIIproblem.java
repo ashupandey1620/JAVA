@@ -34,7 +34,7 @@ public class SubsetIIproblem
         powerSet.add(new ArrayList(subSet));
         return;
         }
-     
+     //hello
             subSet.add(nums[i]);
              for (int j = i + 1; j <= nums.length; j++){
             solve(nums,i+1,subSet,powerSet);}
